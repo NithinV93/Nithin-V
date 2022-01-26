@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Iris Project</title>
+
+    <link rel="stylesheet" href="/static/css">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      body {
+          background-image: url('../static/iris-flowers.jpg');
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="../static/css/iris.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    
+    <div>
+    <form class="form-group" action="/" method="POST">
+      <label for="sepallength">Sepal Length :</label>
+      <input class="form-control" type="number" name="sepallength">
+      <label for="sepalwidth">Sepal Width :</label>
+      <input class="form-control" type="number" name="sepalwidth">
+      <label for="petallength">Petal Length :</label>
+      <input class="form-control" type="number" name="petallength">
+      <label for="petalwidth">Petal Width :</label>
+      <input class="form-control" type="number" name="petalwidth">
+    </br>
+      <button class="btn btn-dark" type="submit" name="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>
